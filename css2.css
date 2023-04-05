@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+	padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration-line: none;
+}
+
+body{
+    background: url(Background/BackgroundImage.jpg);
+	background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+header section{
+    width: 100vw;
+    height: 50px;
+}
+header h1{
+    margin: auto;
+    width: 52vw;
+    padding-top: 30px;
+}
+
+ nav:first-of-type{
+    top: 0;
+    position: sticky;
+    margin-inline: auto;
+    width: 63vw;
+    margin-bottom: 10px;
+    background-color: #793d9a;
+}
+
+nav a{
+    line-height: 36px;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    padding-inline: 10px;
+    border-right: solid;
+    border-color: violet;
+    border-width: 1px;
+}
+nav a img{
+    margin-bottom: -6px;
+}
+nav input{
+    width: 250px;
+    height: 25px;
+    font-size: 16px;
+    border-right: solid;
+    border-color: violet;
+    border-width: 1px;
+    margin-left: -6px;
+}
+
+nav a button{
+    position: relative;
+    margin-inline: auto;
+    bottom: 1px;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+nav a:last-of-type{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+nav .middle{
+    margin-left: 700px;
+    border-left: solid;
+    border-color: violet;
+    border-width: 1px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+nav a:hover img{
+    filter: invert(100%);
+}
+
+nav a:active{
+    color: lightgray;
+}
+
+nav a:active img{
+    filter: invert(80%);
+}
+
+
+
+
+.left{
+    top: 0;
+    position: sticky;
+    float: left;
+    background-color: white;
+    width: 300px;
+    margin-inline: 50px;
+    height: 800px;
+    text-align: center;
+}
+
+.right{
+    top: 0;
+    position: sticky;
+    float: right;
+    background-color: white;
+    width: 300px;
+    margin-inline: 50px;
+    height: 800px;
+    text-align: center;
+}
+
+div h2{
+    padding-top: 5px;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+div a{
+    display: block;
+    text-align: left;
+    padding: 10px;
+    border-top: solid 1px;
+    color: black;
+}
+div li{
+    display: block;
+    text-align: left;
+    padding: 10px;
+    border-top: solid 1px;
+    color: black;
+}
+form{
+    padding-bottom: 10px;
+    padding-left: 30px;
+    text-align: left;
+    color: black;
+}
+
+div label{
+    padding: 5px;
+}
+div a:hover{
+    color: blueviolet;
+    border-color: black;
+}
+div input:hover, div label:hover{
+    cursor: pointer;
+    color: blueviolet;
+}
+div input{
+    accent-color: blueviolet;
+}
+
+
+main{
+    width: 55vw;
+    margin-inline: auto;
+    background-color: white;
+    margin-bottom: 100px;
+    height: 200vh;
+    text-align: center;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+main section h2{
+    color: black;
+    font-weight: bold;
+}
+
+
+main section{
+    padding-block: 20px;
+    padding-left: 20px;
+}
+
+section li{
+    width: 180px;
+    border: 1px;
+    border-style: solid;
+    border-color: gray;
+    display: inline-block;
+    margin: 9px;
+    padding-inline: 0px;
+    text-align: center;
+}
+
+section li a:hover{
+    background-color: lightgray;
+}
+
+section h2{
+    font-size: 18px;
+}
+
+section a{
+    color: black;
+    background-color: white;
+    display: block;
+    padding-inline: 0px;
+}
+section a h2{
+        font-size: 16px;
+    text-align: left;
+    margin-left: 10px;
+}
+button{
+
+    bottom: 12px;
+    margin-left: 79px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    background-color: #b536a0;
+    text-align: center;
+    cursor: pointer;
+}
+
+section a button:hover{
+    background-color: blueviolet;
+}
+
+section a button:active{
+    background-color: darkmagenta;
+}
