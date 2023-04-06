@@ -215,13 +215,14 @@ section a h2{
         font-size: 16px;
     text-align: left;
     margin-left: 10px;
+    line-height: 16px;
 }
 button{
-
-    bottom: 12px;
     margin-left: 79px;
-    margin-bottom: 10px;
-    padding: 5px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    padding-inline: 10px;
+    padding-block: 5px;
     border: none;
     background-color: #b536a0;
     text-align: center;
@@ -232,6 +233,14 @@ section a button:hover{
     background-color: blueviolet;
 }
 
+section a button:hover img{
+    filter: invert(100%);
+}
+
 section a button:active{
     background-color: darkmagenta;
+}
+
+section a button:active img{
+    filter: invert(80%);
 }
